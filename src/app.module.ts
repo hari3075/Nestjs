@@ -16,7 +16,7 @@ TypeOrmModule.forRoot({
   host:'localhost',
   port:3306,
   password:'Nellore@123',
-  database:'sakila',
+  database:'sakila2',
   entities:[Customer,Address,City,Country],
   autoLoadEntities:true,
   synchronize:true,

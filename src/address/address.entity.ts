@@ -11,8 +11,8 @@ export class Address {
     address_id: number;
     @Column()
     address: string;
-//  @OneToMany(() => Customer, customer => customer.address)
-// customers: Customer[];
+    @OneToMany(() => Customer, (customer) => customer.address)
+    customers: Customer[];
     @Column()
     address2:string;
     @Column()
